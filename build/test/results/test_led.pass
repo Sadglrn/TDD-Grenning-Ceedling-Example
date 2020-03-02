@@ -1,0 +1,65 @@
+---
+:source:
+  :path: test
+  :file: test_led.c
+:successes:
+- :test: test_LedsOffAfterCreate
+  :line: 16
+  :message: ''
+- :test: test_TurnOnLedOne
+  :line: 23
+  :message: ''
+- :test: test_TurnOffLedOne
+  :line: 29
+  :message: ''
+- :test: test_TurnOnMultipleLeds
+  :line: 36
+  :message: ''
+- :test: test_TurnOffAnyLed
+  :line: 43
+  :message: ''
+- :test: test_AllOn
+  :line: 50
+  :message: ''
+- :test: test_LedMemoryIsNotReadable
+  :line: 56
+  :message: ''
+- :test: test_UpperAndLowerBounds
+  :line: 63
+  :message: ''
+- :test: test_OutOfBoundsTurnOnDoesNoHarm
+  :line: 70
+  :message: ''
+- :test: test_OutOfBoundsTurnOffDoesNoHarm
+  :line: 80
+  :message: ''
+- :test: test_OutOfBoundsProduceRuntimeError
+  :line: 92
+  :message: ''
+- :test: test_IsOn
+  :line: 105
+  :message: ''
+- :test: test_OutOfBoundsLedsAreAlwaysOff
+  :line: 116
+  :message: ''
+- :test: test_IsOff
+  :line: 124
+  :message: ''
+- :test: test_TurnOffMultipleLeds
+  :line: 131
+  :message: ''
+- :test: test_AllOff
+  :line: 139
+  :message: ''
+:failures: []
+:ignores:
+- :test: test_OutOfBoundsToDo
+  :line: 102
+  :message: What should we do during runtime?
+:counts:
+  :total: 17
+  :passed: 16
+  :failed: 0
+  :ignored: 1
+:stdout: []
+:time: 0.23663903499982553
